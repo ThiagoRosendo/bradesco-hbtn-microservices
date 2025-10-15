@@ -1,0 +1,7 @@
+Microsserviços são uma forma de organizar sistemas em vários serviços pequenos e independentes, cada um cuidando de uma parte do negócio. 
+
+Diferente da arquitetura monolítica, onde tudo fica junto em um único bloco, nos microsserviços cada serviço pode ser criado, atualizado e escalado separadamente. 
+
+Isso traz vantagens como: mais facilidade para atualizar partes do sistema sem parar tudo, melhor escalabilidade (cada serviço cresce conforme a demanda) e maior flexibilidade para usar diferentes tecnologias.
+
+Os microsserviços conversam entre si principalmente por APIs (como REST), mas também podem usar mensagens assíncronas, como filas ou eventos. No projeto, vemos URLs diferentes para cada serviço, mostrando como eles se conectam e funcionam de forma independente.
